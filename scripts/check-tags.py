@@ -159,5 +159,5 @@ for filename in sys.argv[1:]:
                 status_code = 1
 
 if status_code:
-    # print("HINT: Unclosed tags will cause website build failure. Please fix the reported unclosed tags. You can use backticks `` to wrap them or close them. Thanks.")
+    print("HINT: Unclosed tags will cause website build failure. Please fix the reported unclosed tags. You can use backticks `` to wrap them or close them. Thanks.")
     exit(1)
